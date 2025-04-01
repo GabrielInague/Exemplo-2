@@ -50,3 +50,40 @@ console.log(numFloat1.toString());
 let numInt=100;
 console.log(numInt.toString())
 
+//METODOS - PARTE-1
+
+//LENGTH- VERIFICA O TAMNAHO DA STRING
+
+let frase ="O Mundo da Tecnologia";
+console.log(frase.length)
+
+//indexOf -retorna um trecho de um texto
+
+let texto= "Programação Sustentável"
+console.log(texto.indexOf("a"))
+
+
+//slice -retorna parte de um texto apotando o inicio e o final
+
+let info="processamento de ponta";
+console.log(info.slice(0,13))
+
+
+//OPERADORES ARITIMÉTICO
+
+const num1 =10;
+const num2 =20;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+//OPERADORES LÓGICOS
+
+const num3 =20;
+const num4 =30;
+
+console.log(num3 < num4);
+console.log(num3 < num4 && num4 < 50); //OS DOIS TEM QUE SER VERDADEIRO
+console.log(num3 > num4 || num4 > num3); //UM DOS DOIS TEM QUE SER VERDADEIRO
+console.log(num4 == num3 || num4 > num3);
